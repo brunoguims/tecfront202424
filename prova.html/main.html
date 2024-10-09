@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Panificadora Alpha</title>
+</head>
+<body>
+    <h1>Panificadora Alpha</h1>    <br><br>
+    <h2>Venha conhecer a melhor panificadora da região.</h2><br><br>
+    <pr><strong>Descubra o verdadeiro sabor do pão fresco e das delícias caseiras que fazem da nossa padaria o coração de Vila Doce. Aqui, cada dia começa com o aroma irresistível de pães artesanais, croissants amanteigados e bolos feitos com amor. Venha saborear nossos produtos fresquinhos, preparados com receitas tradicionais que aquecem o coração.</strong></pr> <br><br>
+    <h2>Produtos oferecidos:</h2>
+    <ul>
+        <li><strong>Pães</strong>
+            <ul>
+                <li>Pão francês: Crocante e ideal para sanduíches.</li>
+                <li>Pão de forma: Macio e versátil, ótimo para lanches.</li>
+            </ul>
+        </li>
+        <li><strong>Doces</strong>
+            <ul>
+                <li>Bolacha: Crocante e perfeita para acompanhar um café.</li>
+                <li>Pastel de nata: Delicioso e cremoso, uma verdadeira iguaria portuguesa.</li>
+            </ul>
+        </li>
+    </ul>
+    <br><center>
+    <form>
+        <label>Filtro de Produto:</label>
+        <input type="text" name="pesquisa" placeholder="Digite o nome do Produto">
+    </form><br>
+    <fieldset>
+        <legend>Categorias:</legend>
+        <label>
+            <input type="checkbox" name="category" value="Doces"> Doces
+        </label>
+        <label>
+            <input type="checkbox" name="category" value="Salgados"> Salgados
+        </label>
+        <label>
+            <input type="checkbox" name="category" value="mesclado"> Mesclado
+        </label>
+    </fieldset><br>
+    <fieldset>
+        <legend>Faixa de Preço:</legend>
+        <label for="price-range">Escolha uma faixa de preço:</label>
+        <select id="price-range" name="price-range">
+            <option value="">Selecione</option>
+            <option value="1-10">R$ 0,1 - R$ 10</option>
+            <option value="11-20">R$ 11 - R$ 20</option>
+            <option value="21-30">R$ 21 - R$ 30</option>
+            <option value="31-50">R$ 31 - R$ 50</option>
+            <option value="50+">R$ 50+</option>
+        </select>
+    </fieldset><br>
+    <form action="pagina2.html" method="get">
+    <button type="submit">Pesquisar</button>
+    </form></center>
+
+</body>
+</html>
